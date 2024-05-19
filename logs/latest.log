@@ -1,0 +1,673 @@
+[17:13:25] [main/INFO] [STDOUT/]: 检查更新中...
+[17:13:25] [main/INFO] [STDOUT/]: 如果不想启用更新检查，在mohist-config/mohist.yml中设置“check_update”为“false”
+[17:13:28] [main/INFO] [STDOUT/]: 最新版本：1.16.5-1239，当前版本：1.16.5-1187。最新版本构建于2024-04-27 20:25:49，你应该升级到最新版本来修复最近的bug！
+[17:13:28] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1187, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
+[17:13:28] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.11 by Azul Systems, Inc.
+[17:13:28] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[17:13:28] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/minecraft/apmc/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[17:13:29] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[17:13:29] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[17:13:31] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[17:13:31] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[17:13:31] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[17:13:32] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 23 ms
+[17:13:32] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[17:13:32] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
+[17:13:32] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[17:13:32] [modloading-worker-0/INFO] [Mekanism/]: Version 10.1.2 initializing...
+[17:13:32] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[17:13:32] [modloading-worker-0/INFO] [Mekanism/]: Loading complete.
+[17:13:32] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[17:13:33] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:13:34] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mekanism-additions-10.1.2.457.jar, mekanism-10.1.2.457.jar, mekanism-tools-10.1.2.457.jar, ai-improvements-0.5.0.jar, mekanism-generators-10.1.2.457.jar, mohist-1.16.5-1187-universal.jar, cofh-core-1.5.2.22.jar, thermal-foundation-1.5.2.30.jar, thermal-innovation-1.5.0.4.jar, thermal-cultivation-1.5.0.4.jar, thermal-expansion-1.5.2.16.jar, thermal-locomotion-1.5.0.4.jar, francium-1.0.1.jar, patchouli-53.3.jar, bukkit, jei-7.7.1.153.jar, nochatlag-1.1.0.jar, multiplayer-server-pause-1.1.0.jar, giantspawn-2.7.jar, collective-5.49.jar
+[17:13:34] [Worker-Main-11/INFO] [net.minecraft.advancements.AdvancementList/]: 已加载 927 合成表
+[17:13:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 正在启动Minecraft服务器 版本1.16.5
+[17:13:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 加载属性中
+[17:13:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 默认游戏模式: SURVIVAL
+[17:13:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 生成密钥对中
+[17:13:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 在 *:25,565 上启动服务器
+[17:13:35] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: 使用epoll频道类型
+[17:13:35] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器未开启正版登录！
+[17:13:35] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器容易受到压测假人攻击，请进行适当防御
+[17:13:35] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 例如添加AntiAttackRL或GreatFirewall等防御插件
+[17:13:35] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 开启正版登录，在server.properties文件中将“online-mode”的值改为“true”
+[17:13:35] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1187 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
+[17:13:36] [Server thread/INFO] [Minecraft/]: 调试输出启用
+[17:13:36] [Server thread/INFO] [/]: 服务器ping玩家样本数: 12
+[17:13:36] [Server thread/INFO] [Minecraft/]: 使用 4 线程的基于Netty的IO
+[17:13:36] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[17:13:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 准备地图 "world"
+[17:13:36] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[17:13:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 为维度 minecraft:overworld 准备起始区块
+[17:13:36] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 0%
+[17:13:37] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 耗时: 570ms
+[17:13:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 完成(0.662s)！输入“/help”获取帮助信息
+[17:13:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:13:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:13:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:13:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:13:58] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[17:13:58] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[17:14:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:56946] 已登录，实体ID 235，坐标 (234.3, 66.562, 104.3)
+[17:14:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Server unpaused.
+[17:14:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Server paused.
+[17:14:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:14:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:14:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:14:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:14:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Server unpaused.
+[17:14:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Server paused.
+[17:14:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:14:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:14:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:14:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:14:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[17:14:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[17:14:32] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[17:14:32] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[17:14:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:34862] 已登录，实体ID 278，坐标 (234.3, 66.562, 104.3)
+[17:14:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Server unpaused.
+[17:14:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Server paused.
+[17:14:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:14:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:14:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:14:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:14:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[17:14:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[17:14:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 服务器未响应！
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 如果你从堆栈输出中看到了一个插件，向插件作者反映
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	 *特别是*如果它看起来像在进行HTTP或数据库操作
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 如果你看到了有关世界编辑或保存的操作，则意味着对世界的操作量超出了服务器能立刻处理的范围
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	 遇到这种情况可以尝试增加spigot.yml中timeout-time的值，这将避免服务器在处理大量世界操作时由于超时被强制关闭
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 如果仍然不确定问题原因或认为这是Mohist的bug，去https://mohistmc.com/汇报问题
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 请确保报告包含所有相关的控制台输出和Minecraft的崩溃报告
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: Spigot版本: 1.16.5-1187 (MC: 1.16.5)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 73 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7291/0x000078aa60f71800.run(Unknown Source)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 整个线程堆栈输出:
+[17:14:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 关闭服务器中
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Reference Handler
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 2 | 挂起的:false | 本地的:false | 状态:RUNNABLE
+[17:14:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存玩家数据中
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Finalizer
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 3 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Object.wait(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Signal Dispatcher
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 4 | 挂起的:false | 本地的:false | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Notification Thread
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 20 | 挂起的:false | 本地的:false | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Common-Cleaner
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 21 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Object.wait(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Thread-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 33 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:FileSystemWatchService
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 34 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Bootstrap-1
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 36 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Bootstrap-3
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 38 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Bootstrap-4
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 39 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Bootstrap-5
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 40 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Bootstrap-6
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 41 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Bootstrap-7
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 42 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Timer hack thread
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 43 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.sleep(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.Util$6.run(Util.java:506)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 44 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 45 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 47 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 48 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 49 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 50 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 51 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 52 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 53 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 54 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 55 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 56 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 57 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 58 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 59 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 60 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 61 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 62 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 63 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:modloading-worker-0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 64 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:FileSystemWatchService
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 65 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Main-8
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 66 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Main-9
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 67 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Main-10
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 68 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Main-11
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 69 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Main-12
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 70 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Main-13
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Worker-Main-14
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 72 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Snooper Timer
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 74 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Object.wait(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Object.wait(Object.java:338)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.TimerThread.mainLoop(Timer.java:537)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.TimerThread.run(Timer.java:516)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 73 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7291/0x000078aa60f71800.run(Unknown Source)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:DestroyJavaVM
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 77 | 挂起的:false | 本地的:false | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server console handler
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 76 | 挂起的:false | 本地的:false | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.io.FileInputStream.read0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.io.FileInputStream.read(FileInputStream.java:228)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:98)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:ObjectCleanerThread
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 78 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Object.wait(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Netty Epoll Server IO #0
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 79 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Java2D Disposer
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 84 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Object.wait(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.desktop@17.0.11/sun.java2d.Disposer.run(Disposer.java:145)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Spigot Watchdog Thread
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 86 | 挂起的:false | 本地的:false | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.management@17.0.11/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.management@17.0.11/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:528)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.management@17.0.11/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:516)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:120)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:FileSystemWatchService
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 87 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:IO-Worker-15
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 88 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:IO-Worker-17
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 90 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:IO-Worker-18
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 91 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Metrics - 1
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 92 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1674)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Netty Epoll Server IO #1
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 93 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Netty Epoll Server IO #2
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 94 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Craft Async Scheduler Management Thread
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 96 | 挂起的:false | 本地的:false | 状态:WAITING
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1625)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Netty Epoll Server IO #3
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 97 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Netty Epoll Server IO #4
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 98 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Netty Epoll Server IO #5
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 100 | 挂起的:false | 本地的:true | 状态:RUNNABLE
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:14:42] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:14:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存世界中
+[17:14:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:14:43] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
+[17:14:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:14:43] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
+[17:14:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:14:43] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
+[17:14:43] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
+[17:14:43] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
+[17:14:43] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存

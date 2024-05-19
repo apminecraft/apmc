@@ -1,0 +1,7 @@
+libraries
+logs/*.zip
+mods
+
+mohist.jar
+usercache.json
+usernamecache.json
