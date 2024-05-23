@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar ./mohist.jar
+java -jar -Xmx8192M ./mohist.jar

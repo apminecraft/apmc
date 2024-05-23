@@ -271,7 +271,7 @@
 		#Cost in Joules of using the Meka-Tool to shear blocks (beehives, pumpkins).
 		energyUsageShearBlock = "10"
 		#Damage applied by Meka-Tool without using any energy.
-		baseDamage = 4
+		baseDamage = 20
 		#Enable the 'Extended Vein Mining' mode for the Meka-Tool. (Allows vein mining everything not just ores/logs)
 		extendedMining = true
 

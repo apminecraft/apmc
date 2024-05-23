@@ -1,276 +1,434 @@
-[17:18:55] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1187, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
-[17:18:55] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.11 by Azul Systems, Inc.
-[17:18:55] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[17:18:55] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/minecraft/apmc/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[17:18:56] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
-[17:18:56] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[17:18:58] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
-[17:18:58] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
-[17:18:58] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
-[17:18:59] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 32 ms
-[17:18:59] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
-[17:18:59] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
-[17:18:59] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
-[17:18:59] [modloading-worker-0/INFO] [Mekanism/]: Version 10.1.2 initializing...
-[17:18:59] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[17:18:59] [modloading-worker-0/INFO] [Mekanism/]: Loading complete.
-[17:18:59] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
-[17:19:00] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:19:00] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mekanism-additions-10.1.2.457.jar, mekanism-10.1.2.457.jar, mekanism-tools-10.1.2.457.jar, ai-improvements-0.5.0.jar, mekanism-generators-10.1.2.457.jar, mohist-1.16.5-1187-universal.jar, cofh-core-1.5.2.22.jar, thermal-foundation-1.5.2.30.jar, thermal-innovation-1.5.0.4.jar, thermal-cultivation-1.5.0.4.jar, thermal-expansion-1.5.2.16.jar, thermal-locomotion-1.5.0.4.jar, francium-1.0.1.jar, patchouli-53.3.jar, bukkit, jei-7.7.1.153.jar, nochatlag-1.1.0.jar, multiplayer-server-pause-1.1.0.jar, giantspawn-2.7.jar, collective-5.49.jar
-[17:19:01] [Worker-Main-8/INFO] [net.minecraft.advancements.AdvancementList/]: 已加载 927 合成表
-[17:19:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 正在启动Minecraft服务器 版本1.16.5
-[17:19:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 加载属性中
-[17:19:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 默认游戏模式: SURVIVAL
-[17:19:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 生成密钥对中
-[17:19:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 在 *:25,565 上启动服务器
-[17:19:02] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: 使用epoll频道类型
-[17:19:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器未开启正版登录！
-[17:19:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器容易受到压测假人攻击，请进行适当防御
-[17:19:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 例如添加AntiAttackRL或GreatFirewall等防御插件
-[17:19:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 开启正版登录，在server.properties文件中将“online-mode”的值改为“true”
-[17:19:02] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1187 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
-[17:19:02] [Server thread/INFO] [Minecraft/]: 调试输出启用
-[17:19:02] [Server thread/INFO] [/]: 服务器ping玩家样本数: 12
-[17:19:02] [Server thread/INFO] [Minecraft/]: 使用 4 线程的基于Netty的IO
-[17:19:02] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
-[17:19:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 准备地图 "world"
-[17:19:03] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[17:19:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 为维度 minecraft:overworld 准备起始区块
-[17:19:03] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 0%
-[17:19:03] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 耗时: 582ms
-[17:19:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 完成(0.684s)！输入“/help”获取帮助信息
-[17:19:08] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
-[17:19:08] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
-[17:19:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/[2409:891f:9107:9379:9195:51ab:1c2b:87d9%0]:56268] 已登录，实体ID 360，坐标 (219.179, 81.323, 106.852)
-[17:19:24] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 Ca3_PO4_2 的UUID为 915ea9f5-a54a-3d4c-8a80-c4a8a9e10876
-[17:19:24] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, dynamiclights, patchouli, redirector, serverpause, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[17:19:26] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Ca3_PO4_2[/[240e:46d:82a1:8f09:d018:35cc:4cdf:47a%0]:62386] 已登录，实体ID 387，坐标 (200.247, 72.938, 159.838)
-[17:32:01] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
-[17:32:01] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[17:32:03] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1250:0:0:1d3:63%0]:40314] 已登录，实体ID 2,131，坐标 (221.909, 67.5, 112.676)
-[17:32:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
-[17:33:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 fell from a high place
-[17:33:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was pummeled by misaka10987
-[17:33:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was burnt to a crisp whilst fighting matthew
-[17:33:33] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 失去连接: Disconnected
-[17:33:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 left the game
-[17:33:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was pummeled by matthew
-[17:33:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
-[17:33:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
-[17:33:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
-[17:34:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 burned to death
-[17:37:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
-[17:37:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
-[17:44:08] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
-[17:44:08] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
-[17:44:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/[2409:891f:9107:9379:9195:51ab:1c2b:87d9%0]:57618] 已登录，实体ID 3,889，坐标 (227.037, 66.5, 110.587)
-[17:45:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /kill
-[17:45:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell out of the world
-[17:45:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Killed matthew]
-[17:46:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew burned to death
-[17:47:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was pummeled by misaka10987
-[17:47:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was burnt to a crisp whilst fighting misaka10987
-[17:47:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was pummeled by misaka10987
-[17:49:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
-[17:57:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was incinerated.
-[17:57:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was incinerated.
-[18:00:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp matthew
-[18:00:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to matthew]
-[18:00:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp matthew
-[18:00:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to matthew]
-[18:00:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:00:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:01:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:01:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:02:02] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:02:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:02:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:02:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:02:45] [Async Chat Thread - 2/INFO] [/]: <misaka10987> SLEEP
-[18:03:06] [Async Chat Thread - 2/INFO] [/]: <misaka10987> SLEEP
-[18:03:12] [Async Chat Thread - 2/INFO] [/]: <misaka10987> SLEEP
-[18:03:14] [Async Chat Thread - 2/INFO] [/]: <misaka10987> SLEEP
-[18:03:16] [Async Chat Thread - 2/INFO] [/]: <misaka10987> SLEEP
-[18:14:41] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
-[18:14:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
-[18:14:46] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
-[18:14:47] [Netty Epoll Server IO #9/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[18:14:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1250:0:0:1d3:63%0]:20882] 已登录，实体ID 8,886，坐标 (209.695, 66, 107.77)
-[18:25:26] [Async Chat Thread - 3/INFO] [/]: <misaka10987> sleep
-[18:25:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
-[18:25:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
-[18:25:33] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
-[18:25:34] [Netty Epoll Server IO #11/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[18:25:36] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1250:0:0:1d3:63%0]:62166] 已登录，实体ID 10,391，坐标 (184.446, 70, 86.425)
-[18:27:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:27:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:27:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:27:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:31:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:31:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:31:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:31:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:32:49] [Async Chat Thread - 4/INFO] [/]: <matthew> are there still coal based ovens for cooking
-[18:33:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:34:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:34:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:36:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
-[18:36:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
-[18:36:41] [User Authenticator #7/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
-[18:36:42] [Netty Epoll Server IO #13/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[18:36:44] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1250:0:0:1d3:63%0]:24822] 已登录，实体ID 11,763，坐标 (238.176, 66.5, 109.261)
-[18:37:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:37:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:37:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:37:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:40:40] [Async Chat Thread - 5/INFO] [/]: <matthew> oh, i just realized that we can cook with the flame thrower
-[18:47:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /gamemode spectator
-[18:47:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Set own game mode to Spectator Mode]
-[18:47:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /gamemode survival
-[18:47:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Set own game mode to Survival Mode]
-[18:52:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was shot by Skeleton
-[18:53:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:53:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:54:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode su
-[18:54:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:54:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:55:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:55:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[18:55:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[18:56:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[18:56:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[18:57:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
-[18:57:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
-[18:57:47] [User Authenticator #8/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
-[18:57:47] [Netty Epoll Server IO #15/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[18:57:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1250:0:0:1d3:63%0]:42402] 已登录，实体ID 14,090，坐标 (220.325, 67.5, 112.123)
-[18:58:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
-[19:07:16] [User Authenticator #9/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 Ca3_PO4_2 的UUID为 915ea9f5-a54a-3d4c-8a80-c4a8a9e10876
-[19:07:16] [Netty Epoll Server IO #16/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, dynamiclights, patchouli, redirector, serverpause, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[19:07:18] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Ca3_PO4_2[/[240e:38c:84c5:e100:755c:27bd:d139:2cdf%0]:63427] 已登录，实体ID 15,402，坐标 (240.026, 66.5, 109.84)
-[19:10:24] [Async Chat Thread - 6/INFO] [/]: <misaka10987> sleep
-[19:10:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill Ca3_PO4_2
-[19:10:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 fell out of the world
-[19:10:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed Ca3_PO4_2]
-[19:10:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
-[19:10:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
-[19:10:41] [User Authenticator #10/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
-[19:10:41] [Netty Epoll Server IO #18/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[19:10:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1250:0:0:1d3:63%0]:9568] 已登录，实体ID 16,481，坐标 (16.7, 73.2, -16.457)
-[19:12:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell from a high place
-[19:13:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 失去连接: Disconnected
-[19:13:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 left the game
-[19:13:22] [User Authenticator #11/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 Ca3_PO4_2 的UUID为 915ea9f5-a54a-3d4c-8a80-c4a8a9e10876
-[19:13:22] [Netty Epoll Server IO #19/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, dynamiclights, patchouli, redirector, serverpause, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[19:13:24] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Ca3_PO4_2[/[240e:38c:84c5:e100:755c:27bd:d139:2cdf%0]:63967] 已登录，实体ID 17,274，坐标 (240.026, 66.5, 109.84)
-[19:19:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 burned to death
-[19:21:45] [Async Chat Thread - 7/INFO] [/]: <misaka10987> sleep
-[19:21:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 失去连接: Disconnected
-[19:21:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 left the game
-[19:22:40] [User Authenticator #12/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 Ca3_PO4_2 的UUID为 915ea9f5-a54a-3d4c-8a80-c4a8a9e10876
-[19:22:40] [Netty Epoll Server IO #20/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, dynamiclights, patchouli, redirector, serverpause, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[19:22:41] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Ca3_PO4_2[/[240e:38c:84c5:e100:755c:27bd:d139:2cdf%0]:64367] 已登录，实体ID 20,896，坐标 (-288.7, 59, 50.663)
-[19:23:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 was blown up by Creeper
-[19:24:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /gamemode spectator
-[19:24:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Spectator Mode]
-[19:25:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /kill
-[19:25:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell out of the world
-[19:25:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Killed matthew]
-[19:26:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /GAMEMODE survival
-[19:26:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Survival Mode]
-[19:28:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 fell from a high place
-[19:29:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[19:29:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[19:29:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[19:29:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[19:29:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[19:30:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[19:30:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[19:31:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[19:31:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[19:33:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[19:33:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[19:33:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[19:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[19:33:53] [Async Chat Thread - 8/INFO] [/]: <misaka10987> sleep
-[19:37:25] [Async Chat Thread - 9/INFO] [/]: <matthew> so how do i fill my hydragen?
-[19:40:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /gamemode spectator
-[19:40:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Spectator Mode]
-[19:40:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /GAMEMODE survival
-[19:40:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Survival Mode]
-[19:42:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 was shot by Baby Skeleton
-[19:51:20] [Async Chat Thread - 10/INFO] [/]: <Ca3_PO4_2> we don't have NOx or NH3+
-[19:51:38] [Async Chat Thread - 10/INFO] [/]: <Ca3_PO4_2> so we can't build fertilized farm
-[19:52:11] [Async Chat Thread - 10/INFO] [/]: <misaka10987> sadly mekanism does not support nitres
-[19:53:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
-[19:53:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
-[19:54:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[19:54:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[19:58:56] [Async Chat Thread - 11/INFO] [/]: <Ca3_PO4_2> sleep
-[20:00:02] [Async Chat Thread - 12/INFO] [/]: <Ca3_PO4_2> well i'm gonna write homework de math and wait for niter :(
-[20:00:04] [Async Chat Thread - 12/INFO] [/]: <misaka10987> STOP BURNING COAL ORES!!!!!!!!!!
-[20:00:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /gamemode spectator
-[20:00:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Spectator Mode]
-[20:00:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /GAMEMODE survival
-[20:00:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Survival Mode]
-[20:04:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /gamemode spectator
-[20:04:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Spectator Mode]
-[20:05:59] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
-[20:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
-[20:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
-[20:06:06] [Async Chat Thread - 13/INFO] [/]: <matthew> misaka, any idea how to make plastic with this?
-[20:06:20] [Async Chat Thread - 13/INFO] [/]: <matthew> i got loads of fungus
-[20:06:37] [Async Chat Thread - 13/INFO] [/]: <matthew> so like 8x64 bio fuel
-[20:06:44] [Async Chat Thread - 13/INFO] [/]: <misaka10987> forget it
-[20:10:50] [Async Chat Thread - 14/INFO] [/]: <misaka10987> sleep
-[20:10:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
-[20:10:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
-[20:11:51] [User Authenticator #13/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
-[20:11:51] [Netty Epoll Server IO #22/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[20:11:53] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1250:0:0:1d3:63%0]:57400] 已登录，实体ID 30,025，坐标 (218.939, 66, 76.749)
-[20:14:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /GAMEMODE survival
-[20:14:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Survival Mode]
-[20:15:02] [Async Chat Thread - 15/INFO] [/]: <misaka10987> only for non-metals
-[20:15:39] [Async Chat Thread - 15/INFO] [/]: <Ca3_PO4_2> but nickel is non-meck metal :)
-[20:16:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /gamemode spectator
-[20:16:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Spectator Mode]
-[20:17:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell from a high place
-[20:22:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /kill
-[20:22:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell out of the world
-[20:22:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Killed matthew]
-[20:23:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was blown up by Creeper
-[20:27:19] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /GAMEMODE survival
-[20:27:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Survival Mode]
-[20:36:20] [Async Chat Thread - 16/INFO] [/]: <misaka10987> why r u putting wood in it
-[20:36:34] [Async Chat Thread - 16/INFO] [/]: <Ca3_PO4_2> i need charcoal
-[20:37:00] [Async Chat Thread - 16/INFO] [/]: <misaka10987> this is NOT A FURNANCE
-[20:37:41] [Async Chat Thread - 16/INFO] [/]: <misaka10987> be patient
-[20:38:59] [Async Chat Thread - 17/INFO] [/]: <Ca3_PO4_2> why nikle so rare :(
-[20:46:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /kill
-[20:46:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell out of the world
-[20:46:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Killed matthew]
-[20:54:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /kill
-[20:54:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell out of the world
-[20:54:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Killed matthew]
-[20:56:31] [Async Chat Thread - 18/INFO] [/]: <Ca3_PO4_2> seems that we're runnning out of electricity:)
-[20:56:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /stop
-[20:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Stopping the server]
-[20:56:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 关闭服务器中
-[20:56:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存玩家数据中
-[20:56:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 失去连接: Server closed
-[20:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 left the game
-[20:56:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Server closed
-[20:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
-[20:56:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Server closed
-[20:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
-[20:56:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存世界中
-[20:56:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
-[20:56:57] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
-[20:56:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
-[20:56:57] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
-[20:56:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
-[20:56:57] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
-[20:56:57] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
-[20:56:57] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
-[20:56:57] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
+[19:46:47] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1187, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
+[19:46:47] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.11 by Azul Systems, Inc.
+[19:46:47] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[19:46:47] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/minecraft/apmc/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[19:46:47] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[19:46:47] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[19:46:49] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[19:46:49] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[19:46:49] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[19:46:50] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 21 ms
+[19:46:50] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[19:46:50] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
+[19:46:50] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[19:46:50] [modloading-worker-0/INFO] [Mekanism/]: Version 10.1.2 initializing...
+[19:46:50] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[19:46:50] [modloading-worker-0/INFO] [Mekanism/]: Loading complete.
+[19:46:50] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[19:46:51] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:46:52] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mekanism-additions-10.1.2.457.jar, mekanism-10.1.2.457.jar, mekanism-tools-10.1.2.457.jar, ai-improvements-0.5.0.jar, mekanism-generators-10.1.2.457.jar, mohist-1.16.5-1187-universal.jar, cofh-core-1.5.2.22.jar, thermal-foundation-1.5.2.30.jar, thermal-innovation-1.5.0.4.jar, thermal-cultivation-1.5.0.4.jar, thermal-expansion-1.5.2.16.jar, thermal-locomotion-1.5.0.4.jar, francium-1.0.1.jar, patchouli-53.3.jar, bukkit, jei-7.7.1.153.jar, nochatlag-1.1.0.jar, multiplayer-server-pause-1.1.0.jar, giantspawn-2.7.jar, collective-5.49.jar
+[19:46:53] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: 已加载 927 合成表
+[19:46:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 正在启动Minecraft服务器 版本1.16.5
+[19:46:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 加载属性中
+[19:46:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 默认游戏模式: SURVIVAL
+[19:46:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 生成密钥对中
+[19:46:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 在 *:25,565 上启动服务器
+[19:46:54] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: 使用epoll频道类型
+[19:46:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器未开启正版登录！
+[19:46:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器容易受到压测假人攻击，请进行适当防御
+[19:46:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 例如添加AntiAttackRL或GreatFirewall等防御插件
+[19:46:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 开启正版登录，在server.properties文件中将“online-mode”的值改为“true”
+[19:46:54] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1187 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
+[19:46:54] [Server thread/INFO] [Minecraft/]: 调试输出启用
+[19:46:54] [Server thread/INFO] [/]: 服务器ping玩家样本数: 12
+[19:46:54] [Server thread/INFO] [Minecraft/]: 使用 4 线程的基于Netty的IO
+[19:46:54] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[19:46:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 准备地图 "world"
+[19:46:54] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[19:46:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 为维度 minecraft:overworld 准备起始区块
+[19:46:55] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 0%
+[19:46:55] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 100%
+[19:46:55] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 耗时: 666ms
+[19:46:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 完成(0.772s)！输入“/help”获取帮助信息
+[19:46:58] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 Ca3_PO4_2 的UUID为 915ea9f5-a54a-3d4c-8a80-c4a8a9e10876
+[19:46:58] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, dynamiclights, patchouli, redirector, serverpause, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
+[19:46:59] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[19:46:59] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[19:47:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Ca3_PO4_2[/[240e:38c:84c5:e100:7904:857a:a39e:f769%0]:52725] 已登录，实体ID 417，坐标 (218.3, 67.92, 112.139)
+[19:47:01] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/[2409:891f:9063:31c8:95da:34b3:107e:9f81%0]:34544] 已登录，实体ID 433，坐标 (66.256, 69, 185.904)
+[19:47:07] [Async Chat Thread - 2/INFO] [/]: <Ca3_PO4_2> so?
+[19:47:08] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
+[19:47:08] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
+[19:47:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1246:0:0:1d2:51%0]:47198] 已登录，实体ID 567，坐标 (226.053, 66, 97.791)
+[19:47:12] [Async Chat Thread - 2/INFO] [/]: <misaka10987> seems the lib is to blame?
+[19:47:22] [Async Chat Thread - 2/INFO] [/]: <Ca3_PO4_2> probably
+[19:47:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[19:47:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode us
+[19:47:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[19:47:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[19:48:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp Ca3_PO4_2
+[19:48:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to Ca3_PO4_2]
+[19:52:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /give Ca3_PO4_2 mekanism:flamethrower
+[19:52:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Gave 1 [Flamethrower] to Ca3_PO4_2]
+[19:53:26] [Async Chat Thread - 3/INFO] [/]: <Ca3_PO4_2> sleep
+[19:53:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
+[19:53:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
+[19:53:45] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
+[19:53:45] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
+[19:53:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1246:0:0:1d2:51%0]:46504] 已登录，实体ID 2,554，坐标 (68.403, 64, 190.736)
+[19:53:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 was slain by Spider
+[19:54:27] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /time set 0
+[19:54:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set the time to 0]
+[20:06:11] [Async Chat Thread - 4/INFO] [/]: <misaka10987> sleep
+[20:06:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Disconnected
+[20:06:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
+[20:06:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /gamemode spectator
+[20:06:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Spectator Mode]
+[20:06:38] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 matthew 的UUID为 7d08da5a-4cde-39b0-baae-76383f68e282
+[20:06:38] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, patchouli, redirector, serverpause, flighthud, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
+[20:06:41] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: matthew[/[2a09:bac5:1f0a:1246:0:0:1d2:51%0]:49346] 已登录，实体ID 5,894，坐标 (227.452, 70.5, 104.483)
+[20:07:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /gamemode survival
+[20:07:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set own game mode to Survival Mode]
+[20:07:31] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 移动过快！-0.05,-4.745,9.53
+[20:10:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew fell from a high place
+[20:10:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /kill
+[20:10:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Killed matthew]
+[20:11:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[20:11:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[20:12:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[20:12:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[20:17:42] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 移动错误！
+[20:17:59] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
+[20:17:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
+[20:17:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
+[20:18:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /kill
+[20:18:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 fell out of the world
+[20:18:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Killed Ca3_PO4_2]
+[20:18:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew issued server command: /time set day
+[20:18:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [matthew: Set the time to 1000]
+[20:20:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew hit the ground too hard
+[20:25:57] [Async Chat Thread - 5/INFO] [/]: <matthew> ca2po42
+[20:26:02] [Async Chat Thread - 5/INFO] [/]: <matthew> come
+[20:26:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /tp matthew
+[20:26:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Teleported Ca3_PO4_2 to matthew]
+[20:26:08] [Async Chat Thread - 5/INFO] [/]: <matthew> need your help
+[20:26:15] [Async Chat Thread - 5/INFO] [/]: <matthew> get some viligers
+[20:27:22] [Async Chat Thread - 6/INFO] [/]: <matthew> what are you doing
+[20:28:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /time set 0
+[20:28:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set the time to 0]
+[20:30:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew hit the ground too hard
+[20:30:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp matthew
+[20:30:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to matthew]
+[20:36:12] [Async Chat Thread - 7/INFO] [/]: <matthew> if there are not enough people\
+[20:36:26] [Async Chat Thread - 7/INFO] [/]: <matthew> one in one room is ok
+[20:37:04] [Async Chat Thread - 7/INFO] [/]: <matthew> because there is only one place for working block
+[20:38:00] [Async Chat Thread - 7/INFO] [/]: <matthew> what?
+[20:39:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /time set day
+[20:39:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set the time to 1000]
+[20:40:00] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: The blockState must be placed to call this method
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onMultiPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityMultiPlaceEvent;)V
+		2: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onBlockPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityPlaceEvent;)V
+java.lang.IllegalStateException: The blockState must be placed to call this method
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20:40:00] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: 执行任务时出错 于 Server
+[20:40:00] [Server thread/WARN] [/]: java.lang.IllegalStateException: The blockState must be placed to call this method
+[20:40:00] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+[20:40:00] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+[20:40:00] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+[20:40:00] [Server thread/WARN] [/]: 	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+[20:40:00] [Server thread/WARN] [/]: 	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[20:40:00] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[20:40:00] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:40:14] [Async Chat Thread - 8/INFO] [/]: <Ca3_PO4_2> a new kind of iron machine
+[20:40:16] [Async Chat Thread - 8/INFO] [/]: <Ca3_PO4_2> :(
+[20:40:20] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: The blockState must be placed to call this method
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onMultiPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityMultiPlaceEvent;)V
+		2: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onBlockPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityPlaceEvent;)V
+java.lang.IllegalStateException: The blockState must be placed to call this method
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20:40:20] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: 执行任务时出错 于 Server
+[20:40:20] [Server thread/WARN] [/]: java.lang.IllegalStateException: The blockState must be placed to call this method
+[20:40:20] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+[20:40:20] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+[20:40:20] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+[20:40:20] [Server thread/WARN] [/]: 	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+[20:40:20] [Server thread/WARN] [/]: 	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[20:40:20] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[20:40:20] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:40:36] [Async Chat Thread - 8/INFO] [/]: <matthew> no need
+[20:40:56] [Async Chat Thread - 8/INFO] [/]: <matthew> we still breed them here
+[20:40:56] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: The blockState must be placed to call this method
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onMultiPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityMultiPlaceEvent;)V
+		2: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onBlockPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityPlaceEvent;)V
+java.lang.IllegalStateException: The blockState must be placed to call this method
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20:40:56] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: 执行任务时出错 于 Server
+[20:40:56] [Server thread/WARN] [/]: java.lang.IllegalStateException: The blockState must be placed to call this method
+[20:40:56] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+[20:40:56] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+[20:40:56] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+[20:40:56] [Server thread/WARN] [/]: 	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+[20:40:56] [Server thread/WARN] [/]: 	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[20:40:56] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[20:40:56] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:41:03] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: The blockState must be placed to call this method
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onMultiPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityMultiPlaceEvent;)V
+		2: ASM: com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher@5f542176 onBlockPlace(Lnet/minecraftforge/event/world/BlockEvent$EntityPlaceEvent;)V
+java.lang.IllegalStateException: The blockState must be placed to call this method
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20:41:03] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: 执行任务时出错 于 Server
+[20:41:03] [Server thread/WARN] [/]: java.lang.IllegalStateException: The blockState must be placed to call this method
+[20:41:03] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.requirePlaced(CraftBlockState.java:289)
+[20:41:03] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:155)
+[20:41:03] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState.getBlock(CraftBlockState.java:22)
+[20:41:03] [Server thread/WARN] [/]: 	at org.bukkit.event.block.BlockMultiPlaceEvent.<init>(BlockMultiPlaceEvent.java:22)
+[20:41:03] [Server thread/WARN] [/]: 	at com.mohistmc.eventhandler.dispatcher.BlockEventDispatcher.onMultiPlace(BlockEventDispatcher.java:114)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler_45_BlockEventDispatcher_onMultiPlace_EntityMultiPlaceEvent.invoke(.dynamic)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraftforge.event.ForgeEventFactory.onMultiBlockPlace(ForgeEventFactory.java:159)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:675)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.item.ItemStack.func_196084_a(ItemStack.java:208)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:470)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:1411)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:38)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(CPlayerTryUseItemOnBlockPacket.java:12)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:936)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:919)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:913)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[20:41:03] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[20:41:03] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[20:41:15] [Async Chat Thread - 8/INFO] [/]: <matthew> Uuuuu...
+[20:43:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 fell from a high place
+[20:43:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 失去连接: Disconnected
+[20:43:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 left the game
+[20:46:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp matthew
+[20:46:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to matthew]
+[20:47:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
+[20:47:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
+[20:47:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
+[20:47:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
+[20:49:23] [Async Chat Thread - 9/INFO] [/]: <matthew> farming department
+[20:49:28] [Async Chat Thread - 9/INFO] [/]: <matthew> we need wood
+[21:00:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew was slain by misaka10987
+[21:01:45] [Server thread/INFO] [net.minecraft.world.end.DragonFightManager/]: 扫描旧版世界龙战中
+[21:01:45] [Server thread/INFO] [net.minecraft.world.end.DragonFightManager/]: 末影龙嗝屁了
+[21:02:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[21:02:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[21:02:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[21:02:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 关闭服务器中
+[21:02:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存玩家数据中
+[21:02:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: matthew 失去连接: Server closed
+[21:02:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: matthew left the game
+[21:02:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存世界中
+[21:02:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[21:02:16] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
+[21:02:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[21:02:16] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
+[21:02:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[21:02:17] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
+[21:02:17] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
+[21:02:17] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
+[21:02:17] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
