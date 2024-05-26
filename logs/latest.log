@@ -1,111 +1,310 @@
-[14:55:08] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1187, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
-[14:55:08] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.11 by Azul Systems, Inc.
-[14:55:08] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[14:55:08] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/minecraft/apmc/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[14:55:08] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
-[14:55:08] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[14:55:10] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
-[14:55:10] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
-[14:55:10] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
-[14:55:11] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 32 ms
-[14:55:12] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
-[14:55:12] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
-[14:55:12] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
-[14:55:12] [modloading-worker-0/INFO] [Mekanism/]: Version 10.1.2 initializing...
-[14:55:12] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[14:55:12] [modloading-worker-0/INFO] [Mekanism/]: Loading complete.
-[14:55:12] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
-[14:55:13] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:55:13] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mekanism-additions-10.1.2.457.jar, mekanism-10.1.2.457.jar, mekanism-tools-10.1.2.457.jar, ai-improvements-0.5.0.jar, mekanism-generators-10.1.2.457.jar, mohist-1.16.5-1187-universal.jar, cofh-core-1.5.2.22.jar, thermal-foundation-1.5.2.30.jar, thermal-innovation-1.5.0.4.jar, thermal-cultivation-1.5.0.4.jar, thermal-expansion-1.5.2.16.jar, thermal-locomotion-1.5.0.4.jar, francium-1.0.1.jar, patchouli-53.3.jar, bukkit, jei-7.7.1.153.jar, nochatlag-1.1.0.jar, multiplayer-server-pause-1.1.0.jar, giantspawn-2.7.jar, collective-5.49.jar
-[14:55:14] [Worker-Main-8/INFO] [net.minecraft.advancements.AdvancementList/]: 已加载 927 合成表
-[14:55:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 正在启动Minecraft服务器 版本1.16.5
-[14:55:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 加载属性中
-[14:55:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 默认游戏模式: SURVIVAL
-[14:55:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 生成密钥对中
-[14:55:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 在 *:25,565 上启动服务器
-[14:55:15] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: 使用epoll频道类型
-[14:55:15] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器未开启正版登录！
-[14:55:15] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器容易受到压测假人攻击，请进行适当防御
-[14:55:15] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 例如添加AntiAttackRL或GreatFirewall等防御插件
-[14:55:15] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 开启正版登录，在server.properties文件中将“online-mode”的值改为“true”
-[14:55:15] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1187 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
-[14:55:15] [Server thread/INFO] [Minecraft/]: 调试输出启用
-[14:55:15] [Server thread/INFO] [/]: 服务器ping玩家样本数: 12
-[14:55:15] [Server thread/INFO] [Minecraft/]: 使用 4 线程的基于Netty的IO
-[14:55:15] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
-[14:55:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 准备地图 "world"
-[14:55:15] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[14:55:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 为维度 minecraft:overworld 准备起始区块
-[14:55:16] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 0%
-[14:55:16] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 100%
-[14:55:16] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 耗时: 638ms
-[14:55:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 完成(0.732s)！输入“/help”获取帮助信息
-[14:55:21] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
-[14:55:22] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
-[14:55:23] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/[2409:891f:9140:35f3:992c:664f:66b:237%0]:39248] 已登录，实体ID 365，坐标 (237.5, 66.562, 104.5)
-[14:55:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp c
-[14:55:58] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 Ca3_PO4_2 的UUID为 915ea9f5-a54a-3d4c-8a80-c4a8a9e10876
-[14:55:58] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 30 mods : minecraft, radon, enablemp, mekanismadditions, configmenusforge, jei, mekanism, dynamiclights, patchouli, redirector, serverpause, embeddiumextras, mekanismtools, aiimprovements, modernui, mekanismgenerators, nochatlagforge, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_cultivation, thermal_expansion, thermal_locomotion, francium, embeddiumextension, embeddium, rubidium, easylan
-[14:56:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Ca3_PO4_2[/[240e:46d:82e1:1049:709e:839d:715c:9d72%0]:63204] 已登录，实体ID 574，坐标 (217.5, 69.562, 208.5)
-[14:56:50] [Async Chat Thread - 2/INFO] [/]: <Ca3_PO4_2> sleep
-[14:57:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
-[14:57:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
-[14:57:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
-[14:57:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp Ca3_PO4_2
-[14:57:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to Ca3_PO4_2]
-[14:58:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
-[14:58:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
-[14:58:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
-[15:00:21] [Async Chat Thread - 3/INFO] [/]: <Ca3_PO4_2> s;eep
-[15:00:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /time set 0
-[15:00:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set the time to 0]
-[15:01:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /give Ca3_PO4_2 patchouli:guide_book
-[15:01:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Gave 1 [Guide Book] to Ca3_PO4_2]
-[15:02:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp Ca3_PO4_2
-[15:02:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to Ca3_PO4_2]
-[15:02:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 was slain by misaka10987
-[15:02:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp Ca3_PO4_2
-[15:02:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to Ca3_PO4_2]
-[15:03:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 was slain by misaka10987
-[15:03:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode creative
-[15:03:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Creative Mode]
-[15:04:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
-[15:04:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
-[15:04:25] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp Ca3_PO4_2
-[15:04:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to Ca3_PO4_2]
-[15:04:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
-[15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
-[15:04:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
-[15:09:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp Ca3_PO4_2
-[15:09:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported misaka10987 to Ca3_PO4_2]
-[15:10:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 was slain by misaka10987
-[15:10:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /tp Ca3_PO4_2 @s
-[15:10:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Teleported Ca3_PO4_2 to misaka10987]
-[15:10:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was slain by Iron Golem
-[15:12:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was slain by Iron Golem
-[15:12:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /tp misaka10987
-[15:12:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Teleported Ca3_PO4_2 to misaka10987]
-[15:12:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was slain by Iron Golem
-[15:13:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 was slain by Iron Golem
-[15:13:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 issued server command: /time set 0
-[15:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Ca3_PO4_2: Set the time to 0]
-[15:13:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill @e[type=minecraft:item]
-[15:13:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed 69 entities]
-[15:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 fell from a high place
-[15:24:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
-[15:24:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
-[15:24:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[15:24:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 关闭服务器中
-[15:24:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存玩家数据中
-[15:24:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Ca3_PO4_2 失去连接: Server closed
-[15:24:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Ca3_PO4_2 left the game
-[15:24:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存世界中
-[15:24:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
-[15:24:19] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
-[15:24:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
-[15:24:19] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
-[15:24:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
-[15:24:19] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
-[15:24:19] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
-[15:24:19] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
-[15:24:19] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
+[16:11:55] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1187, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
+[16:11:55] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 17.0.11 by Azul Systems, Inc.
+[16:11:55] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[16:11:55] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/minecraft/apmc/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[16:11:56] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[16:11:56] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[16:11:58] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[16:11:58] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[16:11:58] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[16:11:59] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 23 ms
+[16:11:59] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[16:11:59] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
+[16:11:59] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[16:11:59] [modloading-worker-0/INFO] [Mekanism/]: Version 10.1.2 initializing...
+[16:11:59] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[16:11:59] [modloading-worker-0/INFO] [Mekanism/]: Loading complete.
+[16:11:59] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[16:12:01] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:12:01] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mekanism-additions-10.1.2.457.jar, mekanism-10.1.2.457.jar, mekanism-tools-10.1.2.457.jar, ai-improvements-0.5.0.jar, mekanism-generators-10.1.2.457.jar, mohist-1.16.5-1187-universal.jar, cofh-core-1.5.2.22.jar, thermal-foundation-1.5.2.30.jar, thermal-innovation-1.5.0.4.jar, thermal-cultivation-1.5.0.4.jar, thermal-expansion-1.5.2.16.jar, thermal-locomotion-1.5.0.4.jar, francium-1.0.1.jar, patchouli-53.3.jar, bukkit, jei-7.7.1.153.jar, nochatlag-1.1.0.jar, multiplayer-server-pause-1.1.0.jar, giantspawn-2.7.jar, collective-5.49.jar
+[16:12:02] [Worker-Main-13/INFO] [net.minecraft.advancements.AdvancementList/]: 已加载 927 合成表
+[16:12:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 正在启动Minecraft服务器 版本1.16.5
+[16:12:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 加载属性中
+[16:12:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 默认游戏模式: SURVIVAL
+[16:12:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 生成密钥对中
+[16:12:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 在 *:25,565 上启动服务器
+[16:12:03] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: 使用epoll频道类型
+[16:12:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器未开启正版登录！
+[16:12:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 服务器容易受到压测假人攻击，请进行适当防御
+[16:12:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 例如添加AntiAttackRL或GreatFirewall等防御插件
+[16:12:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: 开启正版登录，在server.properties文件中将“online-mode”的值改为“true”
+[16:12:03] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1187 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
+[16:12:03] [Server thread/INFO] [Minecraft/]: 调试输出启用
+[16:12:03] [Server thread/INFO] [/]: 服务器ping玩家样本数: 12
+[16:12:03] [Server thread/INFO] [Minecraft/]: 使用 4 线程的基于Netty的IO
+[16:12:03] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[16:12:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 准备地图 "world"
+[16:12:03] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[16:12:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 为维度 minecraft:overworld 准备起始区块
+[16:12:04] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 0%
+[16:12:04] [Server thread/INFO] [Mekanism TileComponentChunkLoader/]: Removed 1 no longer valid chunk tickets, and added 0 newly valid chunk tickets. Pos: BlockPos{x=224, y=66, z=105} World: minecraft:overworld
+[16:12:04] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域: 100%
+[16:12:04] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 耗时: 628ms
+[16:12:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: 完成(0.720s)！输入“/help”获取帮助信息
+[16:12:08] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[16:12:08] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[16:12:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:39542] 已登录，实体ID 315，坐标 (217.244, 79.922, 104.855)
+[16:12:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[16:12:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[16:12:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
+[16:12:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
+[16:12:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
+[16:15:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[16:15:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[16:15:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[16:15:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[16:15:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[16:15:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[16:15:32] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[16:15:32] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[16:15:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:43792] 已登录，实体ID 668，坐标 (221.56, 71, 101.154)
+[16:20:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[16:20:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[16:20:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[16:20:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[16:21:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[16:21:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[16:22:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[16:22:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[16:24:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[16:24:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[16:24:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[16:24:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[16:24:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[16:24:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[16:25:19] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[16:25:19] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[16:25:21] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:38698] 已登录，实体ID 1,722，坐标 (234.953, 67.875, 112.376)
+[16:25:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[16:25:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[16:25:27] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[16:25:27] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[16:25:29] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:40022] 已登录，实体ID 1,735，坐标 (234.953, 67.875, 112.376)
+[16:25:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[16:25:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[16:25:41] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[16:25:41] [Netty Epoll Server IO #8/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[16:25:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:53752] 已登录，实体ID 1,773，坐标 (234.953, 67.875, 112.376)
+[16:25:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[16:25:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[16:26:09] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: 玩家 misaka10987 的UUID为 c761ad0d-349f-31a1-be92-38227aaefc11
+[16:26:09] [Netty Epoll Server IO #10/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, radon, serverpause, enablemp, embeddiumextras, mekanismtools, mekanismadditions, configmenusforge, aiimprovements, modernui, mekanismgenerators, jei, nochatlagforge, mekanism, forge, cofh_core, francium, embeddiumextension, thermal, thermal_foundation, thermal_expansion, thermal_innovation, thermal_locomotion, patchouli, embeddium, rubidium, thermal_cultivation
+[16:26:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: misaka10987[/127.0.0.1:34274] 已登录，实体ID 1,780，坐标 (234.953, 67.875, 112.376)
+[16:26:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[16:26:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[16:26:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[16:26:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1187 (MC: 1.16.5) ---
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 10 seconds! Creating thread dump
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7271/0x0000791a1cf72a78.run(Unknown Source)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:26:28] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1187 (MC: 1.16.5) ---
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 15 seconds! Creating thread dump
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7271/0x0000791a1cf72a78.run(Unknown Source)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:26:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[16:26:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[16:26:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[16:26:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[16:26:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[16:35:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[16:35:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[16:35:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode s u
+[16:35:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[16:35:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[17:16:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /kill
+[17:16:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 fell out of the world
+[17:16:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Killed misaka10987]
+[17:21:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:21:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:21:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:21:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1187 (MC: 1.16.5) ---
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 10 seconds! Creating thread dump
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:RUNNABLE
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.yield(Native Method)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:147)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7271/0x0000791a1cf72a78.run(Unknown Source)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:21:58] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:22:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:22:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:22:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1187 (MC: 1.16.5) ---
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 10 seconds! Creating thread dump
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7271/0x0000791a1cf72a78.run(Unknown Source)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:22:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1187 (MC: 1.16.5) ---
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 15 seconds! Creating thread dump
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7271/0x0000791a1cf72a78.run(Unknown Source)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:22:22] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:41:41] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[17:41:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[17:44:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[17:44:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[17:45:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:45:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:45:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:45:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:50:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[17:50:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[17:50:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[17:50:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1187 (MC: 1.16.5) ---
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 10 seconds! Creating thread dump
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7271/0x0000791a1cf72a78.run(Unknown Source)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:50:33] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[17:59:41] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[17:59:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[18:01:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[18:01:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[18:02:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[18:02:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[18:03:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[18:03:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[18:03:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[18:03:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[18:03:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[18:03:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[18:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[18:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[18:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[18:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1187 (MC: 1.16.5) ---
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 10 seconds! Creating thread dump
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 堆栈输出（汇报给服务端开发者之前先检查是否是插件所为）：
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 当前线程:Server thread
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 71 | 挂起的:false | 本地的:false | 状态:TIMED_WAITING
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_223705_bi(ThreadTaskExecutor.java:148)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:137)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:899)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:819)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$7271/0x0000791a1cf72a78.run(Unknown Source)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:04:17] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
+[18:16:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[18:16:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[18:19:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[18:19:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[18:29:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode spectator
+[18:29:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Spectator Mode]
+[18:30:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 issued server command: /gamemode survival
+[18:30:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [misaka10987: Set own game mode to Survival Mode]
+[18:30:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving and pausing game...
+[18:30:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[18:30:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[18:30:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[18:30:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: misaka10987 失去连接: Disconnected
+[18:30:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: misaka10987 left the game
+[18:30:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[18:30:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 关闭服务器中
+[18:30:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存玩家数据中
+[18:30:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 保存世界中
+[18:30:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[apmc]'/minecraft:overworld
+[18:30:20] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
+[18:30:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[18:30:20] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
+[18:30:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[18:30:20] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
+[18:30:20] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): 所有区块已保存
+[18:30:20] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): 所有区块已保存
+[18:30:20] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): 所有区块已保存
